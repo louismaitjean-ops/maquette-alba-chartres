@@ -1,0 +1,8 @@
+# MAQUETTE DE TRAVAIL : le site est volontairement caché des moteurs de recherche.
+# À la mise en ligne officielle (sur le nom de domaine d'Alba), remplacer ce fichier par :
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://<domaine-officiel>/sitemap.xml
+# et retirer la balise <meta name="robots" content="noindex, nofollow"> de chaque page.
+User-agent: *
+Disallow: /
